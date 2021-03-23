@@ -1,11 +1,38 @@
-body {
-  background-color: bisque;
+:root {
+  --primary-color: #f73859;
+  --secondary-color: black;
+  --primary-font: "Capriola", sans-serif;
+  --secondary-font: "Lato", sans-serif;
+}
+
+.hero {
+  background-image: url("/src/Teste.jpg");
+  margin: 40px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 160px 40px;
+}
+.home-title {
+  border-left: var(--secondary-color);
+}
+
+.btn-contact {
+  background-color: var(--secondary-color);
+  color: white;
+  transition: all 200ms ease-in-out;
+  padding: 5px 20px;
+  border-radius: 20px;
+  text-decoration: none;
 }
 
 h1 {
-  font-family: "Capriola", sans-serif;
+  font-family: var(--primary-font);
+  color: var(--primary-color);
+  font-size: 56px;
 }
 
-h2 {
-  font-family: "Lato", sans-serif;
+p {
+  font-family: var(--secondary-font);
+  color: var(--secondary-color);
+  font-size: 18px;
 }
