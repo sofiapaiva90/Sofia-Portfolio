@@ -1,13 +1,33 @@
 :root {
   --primary-color: #f73859;
   --secondary-color: black;
+  --third-color: #f2f2f2;
   --primary-font: "Capriola", sans-serif;
   --secondary-font: "Lato", sans-serif;
 }
 
+h1,
+h4 {
+  font-family: var(--primary-font);
+  color: var(--primary-color);
+}
+
+p {
+  font-family: var(--secondary-font);
+  color: var(--secondary-color);
+  font-size: 18px;
+}
+h1 {
+  font-size: 56px;
+}
+
+h4 {
+  font-size: 32px;
+}
 .hero {
   background-image: url("/src/Teste.jpg");
   margin: 40px;
+  margin-bottom: 100px;
   background-repeat: no-repeat;
   background-size: cover;
   padding: 160px 40px;
@@ -23,16 +43,42 @@
   padding: 5px 20px;
   border-radius: 20px;
   text-decoration: none;
-}
-
-h1 {
-  font-family: var(--primary-font);
-  color: var(--primary-color);
-  font-size: 56px;
-}
-
-p {
   font-family: var(--secondary-font);
-  color: var(--secondary-color);
+}
+.projects-link a {
+  text-decoration: none;
+  color: var(--primary-color);
+  font-family: var(--secondary-font);
+}
+
+.arrow-project {
+  margin-left: 100px;
+  font-size: 18px;
+}
+
+.about-paragraph {
+  margin: auto;
+  padding: 0 30px;
+}
+
+.flow-img {
+  width: 80%;
+}
+
+.flow-container {
+  background-color: var(--third-color);
+  margin-top: 100px;
+  margin-bottom: 100px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.btn-about {
+  transition: all 200ms ease-in-out;
+  padding: 5px 20px;
+  border-radius: 50px;
+  border-color: var(--secondary-color);
+  text-decoration: none;
+  font-family: var(--secondary-font);
   font-size: 18px;
 }
