@@ -111,7 +111,7 @@ h5 {
 }
 
 .projects-container {
-  margin-top: 100px;
+  margin-top: 80px;
   font-family: var(--secondary-font);
   color: var(--secondary-color);
 }
@@ -158,4 +158,26 @@ h5 {
 
 .social-icons a:hover {
   color: var(--primary-color);
+}
+
+@media (max-width: 768px) {
+  p {
+    font-size: 17px;
+  }
+  h1 {
+    font-size: 40px;
+  }
+  h2 {
+    font-size: 32px;
+  }
+  h3 {
+    font-size: 28px;
+  }
+
+  h4 {
+    font-size: 24px;
+  }
+  h5 {
+    font-size: 20px;
+  }
 }
