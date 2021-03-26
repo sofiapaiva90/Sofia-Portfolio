@@ -81,7 +81,6 @@ h5 {
 
 .about-paragraph {
   margin: auto;
-  padding: 0 30px;
 }
 
 .flow-img {
@@ -90,7 +89,6 @@ h5 {
 
 .flow-container {
   background-color: var(--third-color);
-  margin: auto;
 }
 
 .btn-about {
@@ -140,7 +138,7 @@ h5 {
 .inquiry {
   background-color: var(--secondary-color);
   margin: auto;
-  padding: 40px 0;
+  padding: 40px 15px;
   color: white;
 }
 
@@ -181,7 +179,7 @@ h5 {
 
   .flow-container {
     margin: 50px 0px;
-    padding: 50px 0px;
+    padding: 50px 15px;
   }
   .btn-contact {
     margin: 90px;
