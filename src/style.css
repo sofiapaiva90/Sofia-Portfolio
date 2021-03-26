@@ -187,13 +187,24 @@ h5 {
     padding: 50px 0px;
   }
 }
-@media (max-width: 450px) {
+@media (max-width: 479px) {
+  .hero img {
+    display: block;
+    width: 100%;
+  }
+
   .hero {
-    padding: 0px;
-    background-size: contain;
+    background-image: none;
   }
   .home-title {
-    padding-top: 180px;
+    padding-top: 30px;
     border-left: none;
   }
+}
+
+@media (min-width: 479px) {
+  .hero img {
+    display: none;
+    
+  
 }
