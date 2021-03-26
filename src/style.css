@@ -182,4 +182,8 @@ h5 {
     margin: 40px;
     padding: 50px;
   }
+  .flow-container {
+    margin: 50px 0px;
+    padding: 50px 0px;
+  }
 }
