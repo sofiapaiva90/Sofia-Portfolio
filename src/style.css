@@ -58,6 +58,7 @@ h5 {
   border-radius: 20px;
   text-decoration: none;
   font-family: var(--secondary-font);
+  margin-left: 30px;
 }
 
 .btn-contact:hover {
@@ -118,8 +119,7 @@ h5 {
 .weatherapp-img,
 .portfolio-img,
 .react-img {
-  border-radius: 30px;
-  background-color: var(--third-color);
+  border-radius: 10%;
   box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
 }
 
@@ -167,6 +167,8 @@ h5 {
   }
   h2 {
     font-size: 32px;
+    margin: auto;
+    text-align: center;
   }
   h3 {
     font-size: 28px;
@@ -182,6 +184,14 @@ h5 {
   .flow-container {
     margin: 50px 0px;
     padding: 50px 0px;
+  }
+  .btn-contact {
+    margin: 90px;
+  }
+  .social-icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
   }
 }
 @media (max-width: 479px) {
