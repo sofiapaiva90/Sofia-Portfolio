@@ -178,10 +178,7 @@ h5 {
   h5 {
     font-size: 20px;
   }
-  .hero {
-    margin: 40px;
-    padding: 50px;
-  }
+
   .flow-container {
     margin: 50px 0px;
     padding: 50px 0px;
@@ -195,6 +192,8 @@ h5 {
 
   .hero {
     background-image: none;
+    margin: 10px auto;
+    padding: 10px;
   }
   .home-title {
     padding-top: 30px;
@@ -205,6 +204,5 @@ h5 {
 @media (min-width: 479px) {
   .hero img {
     display: none;
-    
-  
+  }
 }
