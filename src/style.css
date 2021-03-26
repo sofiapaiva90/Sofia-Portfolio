@@ -88,7 +88,7 @@ h5 {
   width: 80%;
 }
 
-.container.flow-container {
+.flow-container {
   background-color: var(--third-color);
   margin: auto;
 }
