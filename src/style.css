@@ -24,7 +24,7 @@ h1 {
 }
 h2 {
   font-size: 48px;
-  margin-left: 80px;
+  margin-bottom: 20px;
 }
 h3 {
   font-size: 40px;
@@ -88,10 +88,9 @@ h5 {
   width: 80%;
 }
 
-.flow-container {
+.container.flow-container {
   background-color: var(--third-color);
-  margin: 100px 0px;
-  padding: 100px 0px;
+  margin: auto;
 }
 
 .btn-about {
@@ -140,7 +139,7 @@ h5 {
 
 .inquiry {
   background-color: var(--secondary-color);
-  margin: 40px 0;
+  margin: auto;
   padding: 40px 0;
   color: white;
 }
@@ -167,7 +166,6 @@ h5 {
   }
   h2 {
     font-size: 32px;
-    margin: auto;
     text-align: center;
   }
   h3 {
@@ -192,6 +190,9 @@ h5 {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+  }
+  .flow-img {
+    margin-left: 40px;
   }
 }
 @media (max-width: 479px) {
