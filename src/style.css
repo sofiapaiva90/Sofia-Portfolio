@@ -80,15 +80,18 @@ h5 {
 }
 
 .about-paragraph {
-  margin: auto;
+  padding-top: 50px;
 }
 
 .flow-img {
-  width: 80%;
+  max-width: 75%;
+  margin: 0 auto;
 }
 
 .flow-container {
   background-color: var(--third-color);
+  padding: 40px;
+  margin: 0 auto;
 }
 
 .btn-about {
@@ -137,13 +140,14 @@ h5 {
 
 .inquiry {
   background-color: var(--secondary-color);
-  margin: auto;
-  padding: 40px 15px;
+  padding: 30px;
   color: white;
+  margin: 0 auto;
 }
 
 .inquiry p {
   color: white;
+  padding: 10px;
 }
 
 .social-icons a {
@@ -179,7 +183,8 @@ h5 {
 
   .flow-container {
     margin: 50px 0px;
-    padding: 50px 15px;
+    padding-top: 50px;
+    padding-bottom: 50px;
   }
   .btn-contact {
     margin: 90px;
@@ -188,9 +193,6 @@ h5 {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-  }
-  .flow-img {
-    margin-left: 40px;
   }
 }
 @media (max-width: 479px) {
