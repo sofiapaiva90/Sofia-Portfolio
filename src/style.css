@@ -47,7 +47,7 @@ h5 {
   background-size: cover;
 }
 .home-title {
-  border-left: var(--secondary-color);
+  border-left: 3px solid var(--secondary-color);
 }
 
 .btn-contact {
@@ -185,5 +185,15 @@ h5 {
   .flow-container {
     margin: 50px 0px;
     padding: 50px 0px;
+  }
+}
+@media (max-width: 450px) {
+  .hero {
+    padding: 0px;
+    background-size: contain;
+  }
+  .home-title {
+    padding-top: 180px;
+    border-left: none;
   }
 }
