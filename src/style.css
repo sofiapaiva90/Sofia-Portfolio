@@ -24,7 +24,7 @@ h1 {
 }
 h2 {
   font-size: 48px;
-  padding-bottom: 20px;
+  padding-bottom: 10px;
 }
 h3 {
   font-size: 40px;
@@ -74,7 +74,8 @@ nav li.active a {
   background-repeat: no-repeat;
   background-size: cover;
 }
-.home-title {
+.home-title,
+.about-title {
   border-left: 3px solid var(--secondary-color);
   padding-left: 30px;
 }
@@ -144,7 +145,8 @@ nav li.active a {
 .pablo-img,
 .weatherapp-img,
 .portfolio-img,
-.react-img {
+.react-img,
+.about-photo {
   border-radius: 10%;
   box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
 }
@@ -184,6 +186,26 @@ nav li.active a {
 
 .social-icons a:hover {
   color: var(--primary-color);
+}
+
+.about-photo {
+  width: 100%;
+}
+
+.areas h5 {
+  color: var(--secondary-color);
+  padding-top: 20px;
+}
+
+.areas {
+  padding-top: 80px;
+  padding-bottom: 80px;
+  background-color: var(--third-color);
+}
+
+.areas .row,
+.sales-manager .row {
+  margin: 0 auto;
 }
 
 @media (max-width: 768px) {
