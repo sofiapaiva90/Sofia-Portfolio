@@ -24,7 +24,7 @@ h1 {
 }
 h2 {
   font-size: 48px;
-  margin-bottom: 20px;
+  padding-bottom: 20px;
 }
 h3 {
   font-size: 40px;
@@ -48,9 +48,10 @@ h5 {
 }
 .home-title {
   border-left: 3px solid var(--secondary-color);
+  padding-left: 30px;
 }
 
-.btn-contact {
+.link-contact {
   background-color: var(--secondary-color);
   color: white;
   transition: all 200ms ease-in-out;
@@ -61,9 +62,10 @@ h5 {
   margin-left: 30px;
 }
 
-.btn-contact:hover {
+.link-contact:hover {
   background-color: var(--third-color);
 }
+
 .projects-link a {
   text-decoration: none;
   color: var(--primary-color);
@@ -75,17 +77,12 @@ h5 {
 }
 
 .arrow-project {
-  margin-left: 100px;
+  padding-left: 100px;
   font-size: 18px;
-}
-
-.about-paragraph {
-  padding-top: 50px;
 }
 
 .flow-img {
   max-width: 75%;
-  margin: 0 auto;
 }
 
 .flow-container {
@@ -110,7 +107,7 @@ h5 {
 }
 
 .projects-container {
-  margin-top: 30px;
+  padding-top: 30px;
   font-family: var(--secondary-font);
   color: var(--secondary-color);
 }
@@ -168,7 +165,6 @@ h5 {
   }
   h2 {
     font-size: 32px;
-    text-align: center;
   }
   h3 {
     font-size: 28px;
@@ -181,26 +177,18 @@ h5 {
     font-size: 20px;
   }
 
-  .flow-container {
-    margin: 50px 0px;
+  .about-paragraph {
     padding-top: 50px;
-    padding-bottom: 50px;
-  }
-  .btn-contact {
-    margin: 90px;
-  }
-  .social-icons {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
   }
 }
 @media (max-width: 479px) {
+  h2 {
+    text-align: center;
+  }
   .hero img {
     display: block;
     width: 100%;
   }
-
   .hero {
     background-image: none;
     margin: 10px auto;
@@ -209,6 +197,15 @@ h5 {
   .home-title {
     padding-top: 30px;
     border-left: none;
+    text-align: center;
+    padding-left: 0px;
+  }
+  .link-contact {
+    margin: 0 auto;
+  }
+  .btn-contact {
+    display: flex;
+    justify-content: space-evenly;
   }
 }
 
