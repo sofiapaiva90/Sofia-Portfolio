@@ -208,6 +208,14 @@ nav li.active a {
   margin: 0 auto;
 }
 
+.about-description {
+  padding-left: 30px;
+}
+
+.about-title p {
+  margin: 0;
+}
+
 @media (max-width: 768px) {
   p {
     font-size: 17px;
