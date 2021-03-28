@@ -197,14 +197,24 @@ nav li.active a {
   padding-top: 20px;
 }
 
-.areas {
-  padding-top: 80px;
-  padding-bottom: 80px;
+.areas,
+.project-manager,
+.sales-manager,
+.fe-developer {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.areas,
+.project-manager {
   background-color: var(--third-color);
+}
+.areas h2 {
+  padding-left: 60px;
 }
 
 .areas .row,
-.sales-manager .row {
+.project-manager .row {
   margin: 0 auto;
 }
 
@@ -214,6 +224,26 @@ nav li.active a {
 
 .about-title p {
   margin: 0;
+}
+
+.sales-manager h3,
+.project-manager h3,
+.fe-developer h3 {
+  color: var(--secondary-color);
+}
+
+.sales-manager p,
+.project-manager p,
+.fe-developer p {
+  font-size: 20px;
+}
+.sales-manager i {
+  font-size: 30px;
+}
+
+.fe-developer img {
+  width: 20%;
+  padding-bottom: 20px;
 }
 
 @media (max-width: 768px) {
@@ -273,6 +303,31 @@ nav li.active a {
   }
   nav {
     padding-top: 10px;
+  }
+
+  .areas h2 {
+    padding-left: 0px;
+    text-align: center;
+  }
+
+  .areas {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  .sales-title,
+  .fe-title,
+  .project-title,
+  .fe-title {
+    padding-bottom: 20px;
+    text-align: center;
+  }
+
+  .sales-manager,
+  .project-manager,
+  .fe-developer {
+    padding-top: 40px;
+    padding-bottom: 40px;
   }
 }
 
