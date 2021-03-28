@@ -76,7 +76,8 @@ nav li.active a {
 }
 .home-title,
 .about-title,
-.projects-title {
+.projects-title,
+.contacts-title {
   border-left: 3px solid var(--secondary-color);
   padding-left: 30px;
 }
@@ -150,6 +151,7 @@ nav li.active a {
 .portfolio-img,
 .about-photo,
 .projects-photo,
+.contacts-photo,
 .all-projects img {
   border-radius: 10%;
   box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
@@ -320,7 +322,8 @@ nav li.active a {
     padding: 10px;
   }
   .home-title,
-  .projects-title {
+  .projects-title,
+  .contacts-title {
     padding-top: 30px;
     border-left: none;
     text-align: center;
@@ -354,6 +357,7 @@ nav li.active a {
   .sales-title,
   .fe-title,
   .project-title,
+  .contacts-title,
   .fe-title {
     padding-bottom: 20px;
     text-align: center;
