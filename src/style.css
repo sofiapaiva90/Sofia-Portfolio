@@ -122,7 +122,8 @@ nav li.active a {
   margin: 0 auto;
 }
 
-.btn-about {
+.btn-about,
+.all-projects .btn {
   transition: all 200ms ease-in-out;
   padding: 5px 20px;
   border-radius: 50px;
@@ -132,7 +133,8 @@ nav li.active a {
   font-size: 18px;
 }
 
-.btn-about:hover {
+.btn-about:hover,
+.all-projects .btn:hover {
   background-color: var(--secondary-color);
   color: white;
 }
@@ -146,9 +148,9 @@ nav li.active a {
 .pablo-img,
 .weatherapp-img,
 .portfolio-img,
-.react-img,
 .about-photo,
-.projects-photo {
+.projects-photo,
+.all-projects img {
   border-radius: 10%;
   box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
 }
@@ -216,7 +218,8 @@ nav li.active a {
 }
 
 .areas .row,
-.project-manager .row {
+.project-manager .row,
+.all-projects .row {
   margin: 0 auto;
 }
 
@@ -231,7 +234,7 @@ nav li.active a {
 .sales-manager h3,
 .project-manager h3,
 .fe-developer h3 {
-  color: var(--secondary-color);
+  color: var(--primary-color);
 }
 
 .sales-manager p,
@@ -241,11 +244,38 @@ nav li.active a {
 }
 .sales-manager i {
   font-size: 30px;
+  color: var(--primary-color);
 }
 
 .fe-developer img {
   width: 20%;
   padding-bottom: 20px;
+}
+
+.all-projects .row {
+  padding: 40px;
+}
+
+.hidden-weather {
+  display: none;
+}
+
+.project1,
+.project3 {
+  background-color: var(--third-color);
+}
+
+.all-projects h3 {
+  color: var(--primary-color);
+}
+
+.title-project1,
+.title-project2,
+.title-project3 {
+  padding-top: 40px;
+}
+.all-projects .btn {
+  margin-top: 50px;
 }
 
 @media (max-width: 768px) {
@@ -271,6 +301,9 @@ nav li.active a {
 
   .about-paragraph {
     padding-top: 50px;
+  }
+  .hidden-weather {
+    display: block;
   }
 }
 @media (max-width: 479px) {
@@ -331,6 +364,18 @@ nav li.active a {
   .fe-developer {
     padding-top: 40px;
     padding-bottom: 40px;
+  }
+  .all-projects .row {
+    padding: 20px;
+  }
+
+  .title-project1,
+  .title-project2,
+  .title-project3 {
+    text-align: center;
+  }
+  .all-projects .btn {
+    margin-top: 10px;
   }
 }
 
