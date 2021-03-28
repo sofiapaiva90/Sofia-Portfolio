@@ -75,7 +75,8 @@ nav li.active a {
   background-size: cover;
 }
 .home-title,
-.about-title {
+.about-title,
+.projects-title {
   border-left: 3px solid var(--secondary-color);
   padding-left: 30px;
 }
@@ -146,7 +147,8 @@ nav li.active a {
 .weatherapp-img,
 .portfolio-img,
 .react-img,
-.about-photo {
+.about-photo,
+.projects-photo {
   border-radius: 10%;
   box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
 }
@@ -284,7 +286,8 @@ nav li.active a {
     margin: 0 auto;
     padding: 10px;
   }
-  .home-title {
+  .home-title,
+  .projects-title {
     padding-top: 30px;
     border-left: none;
     text-align: center;
