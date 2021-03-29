@@ -178,7 +178,9 @@ nav i {
 .about-photo {
   width: 100%;
 }
-
+.projects-photo img {
+  width: 75%;
+}
 .areas h5 {
   color: var(--secondary-color);
   padding-top: 20px;
