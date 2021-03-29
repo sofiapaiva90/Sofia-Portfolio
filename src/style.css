@@ -62,8 +62,7 @@ nav i {
 }
 .home-title,
 .about-title,
-.projects-title,
-.contacts-title {
+.projects-title {
   border-left: 3px solid var(--secondary-color);
   padding-left: 30px;
 }
@@ -136,8 +135,6 @@ nav i {
 .weatherapp-img,
 .portfolio-img,
 .about-photo,
-.projects-photo,
-.contacts-photo,
 .all-projects img {
   border-radius: 10%;
   box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
@@ -204,7 +201,8 @@ nav i {
 
 .areas .row,
 .project-manager .row,
-.all-projects .row {
+.all-projects .row,
+.contacts-container {
   margin: 0 auto;
 }
 
@@ -280,6 +278,16 @@ nav i {
   color: var(--primary-color);
 }
 
+.contacts-container {
+  background-color: var(--third-color);
+}
+
+.contacts i {
+  color: var(--primary-color);
+  font-size: 24px;
+  padding-right: 10px;
+}
+
 @media (max-width: 768px) {
   p {
     font-size: 17px;
@@ -325,8 +333,7 @@ nav i {
     padding: 10px;
   }
   .home-title,
-  .projects-title,
-  .contacts-title {
+  .projects-title {
     padding-top: 30px;
     border-left: none;
     text-align: center;
@@ -352,7 +359,6 @@ nav i {
   .sales-title,
   .fe-title,
   .project-title,
-  .contacts-title,
   .fe-title {
     padding-bottom: 20px;
     text-align: center;
