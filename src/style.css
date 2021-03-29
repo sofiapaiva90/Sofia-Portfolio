@@ -280,6 +280,23 @@ nav li.active a {
   margin-top: 50px;
 }
 
+.areas img {
+  width: 50%;
+}
+
+.areas a {
+  font-size: 24px;
+  color: var(--secondary-color);
+  display: block;
+  text-decoration: none;
+  padding-top: 20px;
+  font-family: var(--primary-font);
+}
+
+.areas a:hover {
+  color: var(--primary-color);
+}
+
 @media (max-width: 768px) {
   p {
     font-size: 17px;
@@ -306,6 +323,9 @@ nav li.active a {
   }
   .hidden-weather {
     display: block;
+  }
+  .areas a {
+    font-size: 20px;
   }
 }
 @media (max-width: 479px) {
@@ -352,6 +372,10 @@ nav li.active a {
     padding-top: 20px;
     padding-bottom: 20px;
   }
+  .areas a {
+    padding-top: 10px;
+    padding-bottom: 20px;
+  }
 
   .sales-title,
   .fe-title,
@@ -379,6 +403,10 @@ nav li.active a {
   }
   .all-projects .btn {
     margin-top: 10px;
+  }
+
+  .areas img {
+    width: 30%;
   }
 }
 
