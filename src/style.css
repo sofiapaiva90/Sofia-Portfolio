@@ -1,6 +1,6 @@
 :root {
   --primary-color: #f73859;
-  --secondary-color: black;
+  --secondary-color: #212529;
   --third-color: #f2f2f2;
   --primary-font: "Capriola", sans-serif;
   --secondary-font: "Lato", sans-serif;
@@ -41,29 +41,15 @@ h5 {
 
 nav {
   font-family: var(--primary-font);
-  padding-top: 20px;
-}
-nav ul {
-  padding: 0;
-  margin: 0;
 }
 
 nav li {
-  display: inline;
-  list-style: none;
   line-height: 40px;
-  padding-left: 15px;
-}
-nav a {
-  line-height: 40px;
-  text-decoration: none;
-  color: var(--secondary-color);
-  transition: all 200ms ease-in-out;
+  padding-left: 35px;
 }
 
-nav a:hover,
-nav li.active a {
-  color: var(--primary-color);
+nav i {
+  font-size: 36px;
 }
 
 .hero {
@@ -215,9 +201,6 @@ nav li.active a {
 .project-manager {
   background-color: var(--third-color);
 }
-.areas h2 {
-  padding-left: 60px;
-}
 
 .areas .row,
 .project-manager .row,
@@ -355,17 +338,6 @@ nav li.active a {
   .btn-contact {
     display: flex;
     justify-content: space-evenly;
-  }
-  nav li {
-    font-size: 16px;
-    padding-left: 10px;
-  }
-  nav {
-    padding-top: 10px;
-  }
-  .areas h2 {
-    padding-left: 0px;
-    text-align: center;
   }
 
   .areas {
