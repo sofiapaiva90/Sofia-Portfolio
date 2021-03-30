@@ -5,6 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Sofia Paiva's Contacts</title>
+    <meta
+      name="description"
+      content="See this page if you want contact with Sofia Paiva or just to connect with her in linkedin."
+    />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -30,7 +34,9 @@
   <body>
     <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark ps-3">
       <div class="container-fluid">
-        <a class="navbar-brand" href="/"><i class="fas fa-home"></i></a>
+        <a class="navbar-brand" title="Return to Homepage" href="/"
+          ><i class="fas fa-home"></i
+        ></a>
         <button
           class="navbar-toggler"
           type="button"
@@ -45,16 +51,34 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="/">HOME</a>
+              <a
+                class="nav-link"
+                aria-current="page"
+                title="Go to Homepage"
+                href="/"
+                >HOME</a
+              >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="/about.html">ABOUT</a>
+              <a class="nav-link" title="Go to About page" href="/about.html"
+                >ABOUT</a
+              >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="/projects.html">PROJECTS</a>
+              <a
+                class="nav-link"
+                title="Go to Projects page"
+                href="/projects.html"
+                >PROJECTS</a
+              >
             </li>
             <li class="nav-item">
-              <a class="nav-link active" href="/contacts.html">CONTACTS</a>
+              <a
+                class="nav-link active"
+                title="Go to Contact page"
+                href="/contacts.html"
+                >CONTACTS</a
+              >
             </li>
           </ul>
         </div>
@@ -67,10 +91,10 @@
             <h1 class="pb-3">Contacts</h1>
             <div class="contacts">
               <p>
-                <i class="fas fa-at"></i> sofia.paiva90@gmail.com <br />
-                <i class="fab fa-linkedin"></i> www.linkedin.com/in/sofiapaiva
+                sofia.paiva90@gmail.com <br />
+                www.linkedin.com/in/sofiapaiva
                 <br />
-                <i class="fab fa-instagram"></i> www.instagram.com/paivasofia
+                www.instagram.com/paivasofia
               </p>
             </div>
           </div>
@@ -85,5 +109,38 @@
         </div>
       </div>
     </div>
+    <footer>
+      <div class="container">
+        <div class="row p-3">
+          <div
+            class="col-sm-6 d-flex align-items-center justify-content-center"
+          >
+            <p class="m-0">Sofia Paiva 2021</p>
+          </div>
+          <div class="col-sm-6">
+            <span class="social-icons d-flex justify-content-center">
+              <a
+                href="https://www.instagram.com/paivasofia/"
+                target="_blank"
+                title="See Sofia's Instagram"
+                ><i class="fab fa-instagram pe-3"></i
+              ></a>
+              <a
+                href="https://www.linkedin.com/in/sofiapaiva/"
+                target="_blank"
+                title="See Sofia's Linkedin"
+                ><i class="fab fa-linkedin pe-3"></i
+              ></a>
+              <a
+                href="https://github.com/sofiapaiva90"
+                target="_blank"
+                title="See Sofia's GitHub"
+                ><i class="fab fa-github"></i
+              ></a>
+            </span>
+          </div>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>

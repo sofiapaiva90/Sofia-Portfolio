@@ -5,6 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>About Sofia Paiva</title>
+    <meta
+      name="description"
+      content="Find out a litle more about Sofia Paiva and her areas of expertise."
+    />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -30,7 +34,9 @@
   <body>
     <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark ps-3">
       <div class="container-fluid">
-        <a class="navbar-brand" href="/"><i class="fas fa-home"></i></a>
+        <a class="navbar-brand" title="Return to Homepage" href="/"
+          ><i class="fas fa-home"></i
+        ></a>
         <button
           class="navbar-toggler"
           type="button"
@@ -45,16 +51,37 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="/">HOME</a>
+              <a
+                class="nav-link"
+                aria-current="page"
+                title="Go to Homepage"
+                href="/"
+                >HOME</a
+              >
             </li>
             <li class="nav-item">
-              <a class="nav-link active" href="/about.html">ABOUT</a>
+              <a
+                class="nav-link active"
+                title="Go to About page"
+                href="/about.html"
+                >ABOUT</a
+              >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="/projects.html">PROJECTS</a>
+              <a
+                class="nav-link"
+                title="Go to Projects page"
+                href="/projects.html"
+                >PROJECTS</a
+              >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="/contacts.html">CONTACTS</a>
+              <a
+                class="nav-link"
+                title="Go to Contact page"
+                href="/contacts.html"
+                >CONTACTS</a
+              >
             </li>
           </ul>
         </div>
@@ -80,7 +107,9 @@
           <div class="arrow-project d-inline-flex">
             <p>------------</p>
             <div class="projects-link ps-3">
-              <a href="/projects.html">view projects</a>
+              <a href="/projects.html" title="See all the projects"
+                >view projects</a
+              >
             </div>
           </div>
         </div>
@@ -96,19 +125,31 @@
     <div class="fluid-container areas">
       <div class="row">
         <div class="col-sm-4 text-center">
-          <img src="/src/sales-img.png" class="img-fluid" alt="" />
+          <img
+            src="/src/sales-img.png"
+            class="img-fluid"
+            alt="icon sales manager"
+          />
           <a href="#sales-manager" class="fw-bold text-center">
             Sales Manager</a
           >
         </div>
         <div class="col-sm-4 text-center">
-          <img src="/src/project-img.png" class="img-fluid" alt="" />
+          <img
+            src="/src/project-img.png"
+            class="img-fluid"
+            alt="icon project manager"
+          />
           <a href="#project-manager" class="fw-bold text-center">
             Project Manager</a
           >
         </div>
         <div class="col-sm-4 text-center">
-          <img src="/src/developer-img.png" class="img-fluid" alt="" />
+          <img
+            src="/src/developer-img.png"
+            class="img-fluid"
+            alt="icon fe-developer"
+          />
           <a href="#fe-developer" class="fw-bold text-center">
             Front-End Developer</a
           >
@@ -238,24 +279,24 @@
           <h3 id="fe-developer">FE Developer</h3>
           <p>HTML5, CSS3 e Javascrip</p>
           <div class="img-fluid d-none d-sm-block">
-            <img src="/src/logos/html-logo.png" alt="" />
-            <img src="/src/logos/css-logo.png" alt="" />
-            <img src="/src/logos/js-logo.png" alt="" />
+            <img src="/src/logos/html-logo.png" alt="HTML logo" />
+            <img src="/src/logos/css-logo.png" alt="CSS logo" />
+            <img src="/src/logos/js-logo.png" alt="JS logo" />
           </div>
         </div>
         <div class="col-sm-8 text-center">
           <div class="row">
             <div class="col-sm-6">
               <div class="text-center img-fluid">
-                <img src="/src/logos/canvas-logo.png" alt="" />
-                <img src="/src/logos/figma-logo.png" alt="" />
-                <img src="/src/logos/invision-logo.png" alt="" />
+                <img src="/src/logos/canvas-logo.png" alt="Canvas logo" />
+                <img src="/src/logos/figma-logo.png" alt="Figma logo" />
+                <img src="/src/logos/invision-logo.png" alt="Invision logo" />
               </div>
               <p>Canvas, Figma and Invision</p>
             </div>
             <div class="col-sm-6">
               <div class="text-center img-fluid">
-                <img src="/src/logos/bootstrap-logo.png" alt="" />
+                <img src="/src/logos/bootstrap-logo.png" alt="Bootstrap logo" />
               </div>
               <p>Bootstrap</p>
             </div>
@@ -263,14 +304,17 @@
           <div class="row">
             <div class="col-sm-6">
               <div class="text-center img-fluid">
-                <img src="/src/logos/flex-logo.png" alt="" />
+                <img src="/src/logos/flex-logo.png" alt="Flex logo" />
               </div>
               <p>FlexBox and Grid</p>
             </div>
             <div class="col-sm-6">
               <div class="text-center img-fluid">
-                <img src="/src/logos/editor-logo.png" alt="" />
-                <img src="/src/logos/codesandbox-logo.png" alt="" />
+                <img src="/src/logos/editor-logo.png" alt="VS logo" />
+                <img
+                  src="/src/logos/codesandbox-logo.png"
+                  alt="CodeSandBox logo"
+                />
               </div>
               <p>VS Code and CodeSandBox</p>
             </div>
@@ -278,15 +322,18 @@
           <div class="row">
             <div class="col-sm-6">
               <div class="text-center img-fluid">
-                <img src="/src/logos/github-logo.png" alt="" />
-                <img src="/src/logos/netlify-logo.png" alt="" />
+                <img src="/src/logos/github-logo.png" alt="GitHub logo" />
+                <img src="/src/logos/netlify-logo.png" alt="Netlify logo" />
               </div>
               <p>GitHub and Netlify</p>
             </div>
             <div class="col-sm-6">
               <div class="text-center img-fluid">
-                <img src="/src/logos/seo-logo.png" alt="" />
-                <img src="/src/logos/responsive-logo.png" alt="" />
+                <img src="/src/logos/seo-logo.png" alt="SEO logo" />
+                <img
+                  src="/src/logos/responsive-logo.png"
+                  alt="Responsive image"
+                />
               </div>
               <p>SEO and Responsive</p>
             </div>
@@ -294,13 +341,13 @@
           <div class="row">
             <div class="col-sm-6">
               <div class="text-center img-fluid">
-                <img src="/src/logos/api-logo.png" alt="" />
+                <img src="/src/logos/api-logo.png" alt="API image" />
               </div>
               <p>API</p>
             </div>
             <div class="col-sm-6">
               <div class="text-center img-fluid">
-                <img src="/src/logos/git-logo.png" alt="" />
+                <img src="/src/logos/git-logo.png" alt="GIT logo" />
               </div>
               <p>GIT</p>
             </div>
@@ -315,7 +362,10 @@
           <p>Let’s work together and i’ll help you by all my best</p>
         </div>
         <div class="col-sm-6 text-center">
-          <a href="mailto:sofia.paiva90@gmail.com" class="btn btn-talk mt-5"
+          <a
+            href="mailto:sofia.paiva90@gmail.com"
+            class="btn btn-talk mt-5"
+            title="Click to contact Sofia by Email"
             >LET'S TALK <i class="fas fa-chevron-right ps-2"></i
           ></a>
         </div>
@@ -331,13 +381,22 @@
           </div>
           <div class="col-sm-6">
             <span class="social-icons d-flex justify-content-center">
-              <a href="https://www.instagram.com/paivasofia/" target="_blank"
+              <a
+                href="https://www.instagram.com/paivasofia/"
+                target="_blank"
+                title="See Sofia's Instangram"
                 ><i class="fab fa-instagram pe-3"></i
               ></a>
-              <a href="https://www.linkedin.com/in/sofiapaiva/" target="_blank"
+              <a
+                href="https://www.linkedin.com/in/sofiapaiva/"
+                target="_blank"
+                title="See Sofia's Linkedin"
                 ><i class="fab fa-linkedin pe-3"></i
               ></a>
-              <a href="https://github.com/sofiapaiva90" target="_blank"
+              <a
+                href="https://github.com/sofiapaiva90"
+                target="_blank"
+                title="See Sofia's GitHub"
                 ><i class="fab fa-github"></i
               ></a>
             </span>

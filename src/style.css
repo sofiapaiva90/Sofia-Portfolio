@@ -276,12 +276,6 @@ nav i {
   background-color: var(--third-color);
 }
 
-.contacts i {
-  color: var(--primary-color);
-  font-size: 24px;
-  padding-right: 10px;
-}
-
 @media (max-width: 768px) {
   p {
     font-size: 17px;
@@ -306,9 +300,7 @@ nav i {
   .about-paragraph {
     padding-top: 50px;
   }
-  .hidden-weather {
-    display: block;
-  }
+
   .areas a {
     font-size: 20px;
   }
@@ -376,6 +368,9 @@ nav i {
 
   .areas img {
     width: 30%;
+  }
+  .hidden-weather {
+    display: block;
   }
 }
 
