@@ -53,12 +53,15 @@ nav i {
 }
 
 .hero {
-  background-image: url("/src/Teste.jpg");
+  background-image: url("/src/sofia-background.jpg");
   margin: 20px;
   margin-bottom: 40px;
   padding: 160px 40px;
   background-repeat: no-repeat;
   background-size: cover;
+}
+.hero p {
+  color: white;
 }
 .content-title {
   border-left: 3px solid var(--secondary-color);
@@ -317,6 +320,9 @@ nav i {
     background-image: none;
     margin: 0 auto;
     padding: 10px;
+  }
+  .hero p {
+    color: var(--secondary-color);
   }
   .content-title {
     padding-top: 30px;
